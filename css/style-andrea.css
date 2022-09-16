@@ -5,4 +5,8 @@
     scroll-behavior: smooth;
 }
 
-/* CSS - JUSTINE PAGANO */
+.wrapper-flex{
+        display: flex;
+        flex-direction: row;
+
+}
