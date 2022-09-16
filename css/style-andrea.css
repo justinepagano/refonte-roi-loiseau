@@ -6,7 +6,10 @@
 }
 
 .wrapper-flex{
-        display: flex;
-        flex-direction: row;
+    display: flex;
+    flex-direction: row;
+}
 
+.infos{
+    width: 33%;
 }
