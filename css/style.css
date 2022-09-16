@@ -6,3 +6,25 @@
 }
 
 /* CSS - JUSTINE PAGANO */
+main{
+    margin: 0 100px;
+}
+
+#france h3{
+    padding: 20px;
+}
+
+.test{
+    flex-wrap: wrap;
+    display: flex;
+}
+
+.groupe{
+    width: 33.33333333%;
+    padding: 20px;
+}
+
+.groupe img{
+    width: 100%;
+}
+
