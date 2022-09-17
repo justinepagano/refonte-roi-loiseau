@@ -1,7 +1,7 @@
 $(document).ready(function(){
     $(".liste").click(function(){
         const value = $(this).attr("data-filter");
-        if (value == "all"){
+        if (value == "tous"){
             $(".itemBox").show("1000")
         }
         else{
