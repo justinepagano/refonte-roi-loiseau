@@ -11,9 +11,14 @@
     src: url(font/realist.ttf);
 }
 
-section{
+section, header, footer{
     width: 1230px;
     margin: auto;
+}
+
+header .top,
+footer .bottom{
+    max-width: 100%;
 }
 
 section ul{
@@ -45,6 +50,13 @@ section.intro h2{
 }
 
 section.intro p{
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+section.intro h3{
     font-family: "modern antiqua", sans-serif;
     text-align: center;
     color: #c39d63;
