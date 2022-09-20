@@ -6,15 +6,20 @@
     font-family: 'poppins', sans-serif;
 }
 
+@font-face {
+    font-family: "Realist", sans-serif;
+    src: url(font/realist.ttf);
+}
+
 section{
-    padding: 20px;
-    width: 1280px;
-    margin: 40px auto;
+    width: 1230px;
+    margin: auto;
 }
 
 section ul{
     display: flex;
-    margin-bottom: 10px;
+    margin-bottom: 90px;
+    justify-content: center;
 }
 
 section ul li{
@@ -31,6 +36,23 @@ section ul li.active{
     color: #fff;
 }
 
+section.intro h2{
+    font-family: "Realist", sans-serif;
+    text-align: center;
+    font-size: 34px;
+    color: #c39d63;
+    margin: 80px 0 20px 0;
+}
+
+section.intro p{
+    font-family: "modern antiqua", sans-serif;
+    text-align: center;
+    color: #c39d63;
+    font-size: 24px;
+    margin: 0 250px 40px 250px;
+    
+}
+
 .groupes{
     display: flex;
     flex-wrap: wrap;
@@ -43,38 +65,40 @@ section ul li.active{
 
 .groupes .itemBox{
     position: relative;
-    width: 400px;
-    margin: 5px;
+    width: 390px;
+    margin: 10px;
+    background-color: rgb(23, 23, 23);
+    padding: 20px;
 }
 
-/*.groupes .itemBox img{
+.groupes img{
     position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}*/
-
-/* CSS - JUSTINE PAGANO */
-main{
-    margin: 0 100px;
+    width: 330px;
+    top: -50px;
+    left: 50%;
+    transform: translateX(-50%);
+    box-shadow: 0px 4px 22px 0 rgb(0 0 0 / 50%);
 }
 
-.name-pays h3{
-    padding: 20px;
+.groupes small{
+    color: #c39d63;
+    padding-top: 148px;
+    text-align: center;
 }
 
-.test{
-    flex-wrap: wrap;
-    display: flex;
+.groupes h3{
+    font-family: "Realist",Arial,sans-serif;
+    font-size: 34px;
+    text-align: center;
+    color: #fff;
 }
 
-.groupe{
-    width: 33.33333333%;
-    padding: 20px;
+.groupes p{
+    text-align: center;
+    padding-top: 10px;
+    color: #fff;
 }
 
-.groupe img{
-    width: 100%;
+.groupes .pays{
+    margin-bottom: 100px;
 }
