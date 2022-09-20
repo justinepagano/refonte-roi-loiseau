@@ -11,7 +11,7 @@
     src: url(font/realist.ttf);
 }
 
-section, header, footer{
+section{
     width: 1230px;
     margin: auto;
 }
