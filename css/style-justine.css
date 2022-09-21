@@ -1,22 +1,3 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    scroll-behavior: smooth;
-    font-family: 'poppins', sans-serif;
-}
-
-@font-face {
-    font-family: "Realist", sans-serif;
-    src: url(font/realist.ttf);
-}
-
-
-header .top,
-footer .bottom{
-    max-width: 100%;
-}
-
 section ul{
     display: flex;
     margin-bottom: 90px;
