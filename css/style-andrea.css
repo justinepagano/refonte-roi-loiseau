@@ -3,7 +3,19 @@
     padding: 0;
     box-sizing: border-box;
     scroll-behavior: smooth;
+    font-family: 'poppins', sans-serif;
 }
+@font-face {
+    font-family: "Realist", sans-serif;
+    src: url(font/realist.ttf); }
+h2{
+    font-family: "Realist", sans-serif;
+    font-size: 34px;
+    color: #c39d63; }
+h3{
+    font-family: "modern antiqua", sans-serif;
+    color: #c39d63;
+    font-size: 24px; }
 
 .wrapper-flex{
     display: flex;
@@ -26,10 +38,10 @@ main{
 
 ----------------------------------------------------------------------------------------------
 
-.read-more-state1,
-.read-more-state2 {
-    display: none;
-  }
+    .read-more-state1,
+    .read-more-state2 {
+        display:none;
+    }
   
   .read-more-target1,
   .read-more-target2 {
@@ -67,3 +79,6 @@ main{
     border-radius: .25em;
   }
 
+  input#post-1 {
+    display: none;
+  }
