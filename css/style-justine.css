@@ -55,7 +55,6 @@ section.intro p{
 .groupes{
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
     margin: auto;
     max-width: 1230px;
 }
@@ -104,4 +103,10 @@ section.intro p{
 .groupes .pays{
     margin-bottom: 70px;
     margin-top: 30px;
+}
+
+@media(max-width:1024px) {
+    .groupe{
+        justify-content: center;
+    }
 }
