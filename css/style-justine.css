@@ -12,7 +12,6 @@
 }
 
 section{
-    width: 1230px;
     margin: auto;
 }
 
@@ -68,6 +67,9 @@ section.intro h3{
 .groupes{
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+    max-width: 1230px;
 }
 
 .groupes .pays{
