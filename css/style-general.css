@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: 'poppins', sans-serif;
+}
+
+@font-face {
+    font-family: "Realist", sans-serif;
+    src: url(font/realist.ttf);
+}
+
+header .top,
+footer .bottom{
+    max-width: 100%;
+}
+
+h2{
+    font-family: "Realist", sans-serif;
+    font-size: 34px;
+    color: #c39d63;
+}
+
+h3{
+    font-family: "modern antiqua", sans-serif;
+    color: #c39d63;
+    font-size: 24px;
+}
+
+p{
+    font-size: 18px;
+    line-height: 28px;
+}

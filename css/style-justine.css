@@ -43,30 +43,13 @@ section.intro{
     padding: 0 20px;
 }
 
-section.intro h2, section.intro h3{
+section.intro h2, section.intro h3, section.intro p{
     margin-bottom: 20px;
-}
-
-section.intro h2{
-    font-family: "Realist", sans-serif;
     text-align: center;
-    font-size: 34px;
-    color: #c39d63;
 }
 
 section.intro p{
-    font-size: 18px;
-    line-height: 28px;
-    text-align: center;
     margin-bottom: 40px;
-}
-
-section.intro h3{
-    font-family: "modern antiqua", sans-serif;
-    text-align: center;
-    color: #c39d63;
-    font-size: 24px;
-    
 }
 
 .groupes{
