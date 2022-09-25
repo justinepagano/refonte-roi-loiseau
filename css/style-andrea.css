@@ -1,49 +1,56 @@
 *{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    scroll-behavior: smooth;
-    font-family: 'poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  font-family: 'poppins', sans-serif;
 }
 @font-face {
-    font-family: "Realist", sans-serif;
-    src: url(font/realist.ttf); }
-h2{
-    font-family: "Realist", sans-serif;
-    font-size: 34px;
-    color: #c39d63;
-    text-align: center; }
-h3{
-    font-family: "modern antiqua", sans-serif;
-    color: #c39d63;
-    font-size: 24px; }
-p{
-    font-size: 18px;
-    line-height: 28px; }
+font-family: "Realist", sans-serif;
+src: url(font/realist.ttf); }
 
-header .top,
-footer .bottom{
-        max-width: 100%;
-    }
+h2{
+  font-family: "Realist", sans-serif;
+  font-size: 34px;
+  color: #c39d63;
+  text-align: center;
+  margin: 15px; }
+h3{
+  font-family: "modern antiqua", sans-serif;
+  color: #c39d63;
+  font-size: 24px; 
+  margin: 10px; 
+  margin-top: 20px;
+  margin-bottom: 20px;}
+h4{
+  font-size: 20px;
+  padding-bottom: 15px; }
+
+
+li{
+font-size: 18px;
+line-height: 28px;
+margin-left: 15px; }
+
 
 .wrapper-flex{
-    display: flex;
-    flex-direction: row;
+  display: flex;
+  flex-direction: row;
 }
 
 main{
-    width: 960px;
-    margin: auto;
-    align-self: center; }
+width: 960px;
+margin: auto;
+align-self: center; }
 
-.infos{
+  .infos{
     width: 33%; }
-
-.headerscreen{
-    width: ;
+  
+  .headerscreen{
+    width: 1080px;
     height: auto; }
-footer{
-    width: ;
+  footer{
+    width: 1080px;
     height: auto; }
 
 ----------------------------------------------------------------------------------------------
