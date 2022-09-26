@@ -7,7 +7,7 @@
 }
 @font-face {
 font-family: "Realist", sans-serif;
-src: url(font/realist.ttf); }
+src: url(font/realist.ttf), format("ttf"); }
 
 h2{
   font-family: "Realist", sans-serif;
@@ -40,7 +40,8 @@ margin-left: 15px; }
 
 main{
 width: 960px;
-margin: auto;
+margin-left: 20%;
+margin-right: 20%;
 align-self: center; }
 
 .infos{
