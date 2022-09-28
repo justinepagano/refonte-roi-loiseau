@@ -14,23 +14,23 @@ h2{
   font-size: 34px;
   color: #c39d63;
   text-align: center;
-  margin: 30px; }
+  margin: 7%; }
 h3{
   font-family: "modern antiqua", sans-serif;
   color: #c39d63;
   font-size: 24px; 
-  margin: 10px; 
-  margin-top: 30px;
-  margin-bottom: 20px;}
+  margin: 2%; 
+  margin-top: 7%;
+  margin-bottom: 3%;}
 h4{
   font-size: 20px;
-  padding-bottom: 15px; 
-  padding-top: 15px;}
+  padding-bottom: 2%; 
+  padding-top: 2%;}
 
 li{
 font-size: 18px;
 line-height: 28px;
-margin-left: 15px; }
+margin-left: 5%; }
 
 
 .wrapper-flex{
@@ -39,7 +39,7 @@ margin-left: 15px; }
 }
 
 main{
-width: 960px;
+width: 60%;
 margin-left: 20%;
 margin-right: 20%;
 align-self: center; }
